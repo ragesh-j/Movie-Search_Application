@@ -1,0 +1,108 @@
+body{
+    background-color: #101820;
+}
+header #main-head{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #FEE715;
+    margin-top: 0;
+    padding: 2rem;
+}
+header #nav-bar{
+    padding-left: 10%;
+}
+header #nav-bar #search-bar{
+    width: 80%;
+    border: 0.15rem solid dodgerblue;
+    padding: 0.3rem;
+}
+header #nav-bar #search-btn{
+    padding: 7px;
+    margin-left: 0.1rem;
+    border-radius: 0.3rem;
+    border: 3px solid dodgerblue;
+    background-color: dodgerblue;
+    color: white;
+}
+
+
+#main-container .movie-container{
+    width: 70%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 0.8rem;
+    box-sizing: border-box;
+    margin: 1% 10%;
+    padding: 0.8rem;
+    background-color:#ffffff;
+    color :#2C5F2D;
+}
+#main-container .movie-container h2{
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 0.8rem 0px;
+    margin-top: 0;
+    
+}
+#main-container .movie-container h3{
+    margin-bottom: 0;
+    text-decoration: underline;
+}
+#main-container .movie-container p{
+    margin-top: 0;
+}
+#main-container .movie-container span{
+    font-weight: bold;
+    color: #101820;
+}
+#main-container .movie-container #date{
+    display: inline-block;
+    color: red;
+    font-weight: bold;
+}
+main #page{
+    font-weight: bold;
+    width: 70%;
+    color: white;
+    margin:0.5rem 0rem;
+    padding: 0.8rem 0px;
+    margin-left: 10%;
+}
+
+main .pagination{
+    width: 90%;
+    box-sizing: border-box;
+    margin: 1% 3%;
+    padding: 1rem;
+    background-color:#101820;
+    color :#2C5F2D;
+}
+main .pagination #page-btn{
+    margin-top: 0.3rem;
+    margin-right: 0.2rem;
+    background-color: dodgerblue;
+    color: white;
+    border: 1px solid dodgerblue;
+}
+#page-btn,#search-btn:hover{
+    cursor: pointer;
+}
+
+@media (max-width:600px) {
+    header #nav-bar #search-btn{
+        padding: 0.4rem 0.5rem;
+        display: block;
+        border-radius: 0.3rem;
+        border: 3px solid dodgerblue;
+        background-color: dodgerblue;
+        color: white;
+        margin-top: 0.7rem;
+        margin-left: 40%;
+    }
+    header #nav-bar{
+        padding-left: 5%;
+    }
+    header #nav-bar #search-bar{
+        width: 92%;
+    }   
+}
